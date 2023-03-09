@@ -33,7 +33,7 @@ const Navbar = () => {
         <li>Views</li>
         <li>Book</li>
       </ul>
-      <div className="hidden md:flex">
+      <div className="hidden">
         <BiSearch className="mr-2" size={20} />
         <BsPerson size={20} />
       </div>
@@ -64,8 +64,8 @@ const Navbar = () => {
           <li className="border-b">Views</li>
           <li className="border-b">Book</li>
           <div className="flex flex-col">
-            <button className="my-6">Search</button>
-            <button>Account</button>
+            {/* <button className="my-6">Search</button> */}
+            {/* <button>Account</button> */}
           </div>
           <div className="flex justify-between my-6">
             <FaFacebook className="icon" />
